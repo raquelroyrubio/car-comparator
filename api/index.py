@@ -36,6 +36,3 @@ def index():
     cur.close()
     conn.close()
     return render_template_string(HTML_TEMPLATE, coches=coches)
-
-if __name__ == "__main__":
-    app.run()
